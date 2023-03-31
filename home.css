@@ -459,7 +459,6 @@ p {
 .footer-container {
     background-color: #000000;
     padding: 2rem 0;
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
