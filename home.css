@@ -413,8 +413,8 @@ p {
 }
 
 .explore-content {
-    width: 60%;
-    padding: 50px;
+    width: 75%;
+    padding: 20px;
     color: whitesmoke;
     display: flex;
     align-items: center;
@@ -436,6 +436,7 @@ p {
 }
 
 .explore-content .btn {
+    margin-left: 80px;
     margin-top: 40px;
 }
 
@@ -498,6 +499,7 @@ p {
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    padding: 20px;
 }
 
 .open-button {
@@ -583,6 +585,7 @@ p {
     justify-content: space-between;
     align-items: center;
     width: 160px;
+    padding: 10px;
 }
 
 .website-rights {
