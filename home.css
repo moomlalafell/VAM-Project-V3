@@ -67,6 +67,7 @@ header {
     align-items: center;
     list-style: none;
     text-align: center;
+    
 }
 
 .navbar-item, .navbar-item-has-item {
@@ -95,7 +96,7 @@ header {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    padding: 0 1rem;
+    padding: 0 2rem;
     height: 100%;
 }
 
