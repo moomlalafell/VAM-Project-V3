@@ -69,10 +69,13 @@ header {
     text-align: center;
 }
 
-.navbar-item, .navbar-item-has-item, .item {
+.navbar-item, .navbar-item-has-item {
     height: 80px;
 }
 
+.item {
+    height: 60px;
+}
 .submenu {
     position: absolute;
     list-style: none;
