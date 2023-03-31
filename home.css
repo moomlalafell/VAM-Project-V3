@@ -69,9 +69,21 @@ header {
     text-align: center;
 }
 
-.navbar-item {
+.navbar-item, .navbar-item-has-item, .item {
     height: 80px;
 }
+
+.submenu {
+    position: absolute;
+    list-style: none;
+    background-color: #000000;
+    display: none;
+}
+
+.navbar-menu li:hover > .submenu {
+    display: block;
+}
+
 
 .navbar-links {
     /* color:  #f4c3c4; */
