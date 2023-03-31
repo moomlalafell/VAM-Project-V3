@@ -172,6 +172,80 @@ header {
     }
 }
 
+/* VAM Overview Section CSS */
+.overview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+
+.overview h1 {
+    background-color: #ffb100;
+    font-family: "Kumbh Sans", sans-serif;
+    background-size: 100%;
+    margin: 4rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.overview-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.overview-card {
+    margin: 1rem;
+    height: 480px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%,rgba(17, 17, 17, 0.6) 100%);
+    background-size: cover;
+    position: relative;
+    color: #faf0ca;
+}
+
+.overview-card img {
+    position: absolute;
+    height: 200px;
+    top: 30px;
+    left: 90px;
+}
+
+.overview h2 {
+    position: absolute;
+    top: 240px;
+    left: 30px;
+}
+
+.overview-card p {
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    right: 30px;
+}
+
+.overview-card:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 960px) {
+    .overview {
+        height: 1400px;
+    }
+
+    .overview h1 {
+        font-size: 2rem;
+        margin-top: 4rem;
+        text-align: center;
+    }
+}
+
 /* Body Section */
 header {
     display:flex;
@@ -298,7 +372,7 @@ h4 {
 }
 
 p {
-    color: blue;
+    color: black;
     padding: 0px 40px;
 }
 
