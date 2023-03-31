@@ -250,6 +250,12 @@ header {
     transition: 0.2s ease-in;
 }
 
+.sil {
+    color: #ffb100;
+    font-size: 40px;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 960px) {
     .overview {
         height: fit-content;
