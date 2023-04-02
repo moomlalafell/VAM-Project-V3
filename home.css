@@ -70,6 +70,10 @@ header {
     
 }
 
+.navbar-icon {
+    padding: 10px;
+}
+
 .navbar-item, .navbar-item-has-item {
     height: 80px;
 }
@@ -128,6 +132,10 @@ header {
         height: 50vh;
         z-index: -1;
         background-color: #000000;
+    }
+
+    .navbar-menu li:hover > .submenu {
+        display: block;
     }
 
     .navbar-menu.active {
